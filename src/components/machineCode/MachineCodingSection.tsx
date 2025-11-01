@@ -85,7 +85,7 @@ export default function MachineCodingSection() {
               Ready for Your Next Challenge?
             </h3>
             <p className="text-gray-300 mb-6">
-              I'm always excited to tackle new coding challenges and build innovative solutions.
+              I&apos;m always excited to tackle new coding challenges and build innovative solutions.
             </p>
             <motion.a
               href="#contact"
@@ -93,7 +93,7 @@ export default function MachineCodingSection() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Let's Connect
+              Let&apos;s Connect
             </motion.a>
           </div>
         </motion.div>
