@@ -20,7 +20,7 @@ export default function HeroContent() {
         className="space-y-4 md:space-y-6"
       >
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight text-center lg:text-left">
-          Hi, I&apos;m
+          Hi, I&apos;m 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-300">
             Bharat
           </span>
