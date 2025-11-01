@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import Image from 'next/image';
 import { ExternalLink, Github } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -24,10 +27,13 @@ export default function ProjectCard({ title, description, image, tech, github, d
       <div className="bg-white/10 backdrop-blur-md rounded-xl overflow-hidden hover:transform hover:scale-[1.02] transition-all duration-300">
         <div className="relative aspect-video overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60 z-10" />
-          <img 
+          <Image 
             src={image} 
             alt={title}
-            className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover transform group-hover:scale-110 transition-transform duration-500"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20" />
           <div className="absolute bottom-4 right-4 flex space-x-3 z-30">

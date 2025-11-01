@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -12,15 +14,18 @@ export default function AboutContent() {
       <h2 className="text-4xl font-bold mb-6 text-white">About Me</h2>
       <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto mb-8"></div>
       <p className="text-gray-300 max-w-2xl mx-auto text-lg leading-relaxed">
-        I'm a full-stack developer with hands-on experience in building scalable
-        web applications using technologies like{" "}
-        <strong>React, Next.js, and TypeScript</strong> for modern, responsive
-        frontends. I use <strong>Tailwind CSS</strong> and{" "}
-        <strong>Mantine</strong> for clean, component-driven UI design. On the
-        backend, I’ve worked extensively with{" "}
-        <strong>Node.js, Express.js, and NestJS</strong> to create robust APIs
-        and microservices. <br />
+        I'm a Software Developer Intern at Pocket FM, working with{" "}
+        <strong>Next.js 15</strong>, <strong>React 19</strong>, and{" "}
+        <strong>TypeScript</strong> to build scalable web applications. I've
+        contributed to migrating PocketFM's architecture, implementing reusable
+        components in the Aural Design System, and shipping UX improvements
+        that resulted in a 36% increase in experience scores. <br />
         <br />
+        Previously at Cybermindworks, I integrated LinkedIn Share API and
+        developed 15+ UI pages supporting 100k+ users. I'm passionate about
+        creating performant applications with clean code, optimizing API calls
+        with debouncing and throttling, and building secure authentication
+        systems using JWT and OAuth2.
       </p>
     </motion.div>
   );

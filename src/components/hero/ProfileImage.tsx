@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 export default function ProfileImage() {
@@ -15,10 +18,14 @@ export default function ProfileImage() {
         transition={{ type: "spring", stiffness: 300 }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl blur-xl opacity-50 animate-pulse" />
-        <img 
+        <Image 
           src="https://avatars.githubusercontent.com/u/97047293?v=4"
           alt="Profile"
+          width={500}
+          height={500}
           className="relative w-full h-full object-cover rounded-2xl shadow-lg border-2 border-white/20 backdrop-blur-sm"
+          loading="eager"
+          priority
         />
       </motion.div>
     </motion.div>

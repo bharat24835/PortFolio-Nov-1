@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Clock, Zap } from 'lucide-react';
 import { MachineCodingProject } from '../../types/machineCode';
@@ -37,10 +40,13 @@ export default function MachineCodingCard({
         {/* Image Section */}
         <div className="relative aspect-video overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60 z-10" />
-          <img 
+          <Image 
             src={image} 
             alt={title}
-            className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover transform group-hover:scale-110 transition-transform duration-500"
+            loading="lazy"
           />
           
           {/* Difficulty Badge */}

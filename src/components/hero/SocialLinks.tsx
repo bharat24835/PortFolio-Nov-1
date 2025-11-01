@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Code2, BookOpen } from 'lucide-react';

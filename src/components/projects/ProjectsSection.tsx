@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import FeaturedProjects from './FeaturedProjects';
 import { motion } from 'framer-motion';

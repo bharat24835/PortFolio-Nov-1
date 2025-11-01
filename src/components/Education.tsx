@@ -1,25 +1,21 @@
+'use client';
+
 import React from 'react';
 import { GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const education = [
   {
-    year: "2025",
-    degree: "Bachelor of Technology in Computer Science",
-    school: "Galgotia College of Eng and Technology",
-    description: "6.7 CGPA"
+    year: "2021 - 2025",
+    degree: "Bachelor of Technology - Computer Science",
+    school: "Galgotia College of Engineering and Technology",
+    description: "Pursuing B.Tech in Computer Science"
   },
   {
     year: "2019",
-    degree: "12th CBSE",
+    degree: "Class XII CBSE",
     school: "Dr Kiran Saujiya Academy",
-    description: "90.8%"
-  },
-  {
-    year: "2017",
-    degree: "10th CBSE",
-    school: "Dr Kiran Saujiya Academy",
-    description: "9.6 CGPA"
+    description: "Completed 12th CBSE"
   }
 ];
 

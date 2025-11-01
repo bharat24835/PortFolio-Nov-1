@@ -1,11 +1,13 @@
+'use client';
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 const contactDetails = [
-  { Icon: Mail, text: 'bharat24835@gmail.com' },
-  { Icon: Phone, text: '+91 962 792 5287' },
-  { Icon: MapPin, text: 'Greater Noida' }
+  { Icon: Mail, text: 'bharat248350@gmail.com' },
+  { Icon: Phone, text: '+91-9627925287' },
+  { Icon: MapPin, text: 'Greater Noida, India' }
 ];
 
 export default function ContactInfo() {
