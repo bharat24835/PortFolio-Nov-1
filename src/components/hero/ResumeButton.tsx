@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from "react";
 import { motion } from "framer-motion";
@@ -7,7 +7,7 @@ import { FileDown } from "lucide-react";
 export default function ResumeButton() {
   return (
     <motion.a
-      href="https://drive.google.com/file/d/1jQcwRaShl9hAutp4FLOiUvgBthwdBZ96/view?usp=sharing"
+      href="https://drive.google.com/file/d/1zavZpgoy_MPlTOb4WoWi3pgSI3H7yfKa/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className="group relative inline-flex items-center px-8 py-4 overflow-hidden rounded-full"
