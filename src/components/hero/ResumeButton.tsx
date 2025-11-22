@@ -7,7 +7,7 @@ import { FileDown } from "lucide-react";
 export default function ResumeButton() {
   return (
     <motion.a
-      href="https://drive.google.com/file/d/1brsZcr-OxoV3kZtsmWeyJ9U0DH2NDkfb/view?usp=sharing"
+      href="https://drive.google.com/file/d/1jQcwRaShl9hAutp4FLOiUvgBthwdBZ96/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className="group relative inline-flex items-center px-8 py-4 overflow-hidden rounded-full"
